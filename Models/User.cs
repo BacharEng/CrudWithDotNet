@@ -12,6 +12,7 @@ public class User {
     public string lastName { get; set;} = null!;
     public string email { get; set;} = null!;
     public string password { get; set;} = null!;
+    public int age { get; set;}
     public bool isVerify { get; set; } = false!;
     public DateTime createdAt { get; set; } = DateTime.Now!;
     public int __v { get; set; } = 0;
